@@ -22,3 +22,12 @@
 
 11. In case you haven't already, go into your BIOS/UEFI and set the Linux disk to be the first one, the highest priority, to boot automatically.
 
+12. ``sudo dpkg --add-architecture i386``
+
+13. ``wget https://cdn.akamai.steamstatic.com/client/installer/steam.deb``
+
+14. ``sudo apt install -y gdebi``
+
+15. ``sudo gdebi -n steam.deb``
+
+16. Install Cyberpunk 2077 and see how well it works.
