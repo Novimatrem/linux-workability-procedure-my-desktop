@@ -30,9 +30,9 @@
 
 15. ``sudo gdebi -n steam.deb``
 
-16. Install Cyberpunk 2077 and see how well it works.
+16. Install Cyberpunk 2077 and see how well it works. (wait, follow the rest of this first)
 
-17. Install Shadow Warrior 2013 and see how well it works.
+17. Install Shadow Warrior 2013 and see how well it works. (wait, follow the rest of this first)
 
 18. Run ``sudo nano /etc/apt/sources.list`` - comment out the cdrom line, and save the file.
 
@@ -41,4 +41,14 @@
 20. ``sudo apt update``
 
 21. ``sudo apt install -y obs-studio``
+
+gpu best chances:
+
+22. ``sudo add-apt-repository ppa:kisak/kisak-mesa``
+
+23. ``sudo apt update -y``
+
+24. ```sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install && sudo snap refresh && sudo journalctl --flush && sudo journalctl --rotate && sudo journalctl --vacuum-time=1s && sudo journalctl --vacuum-size=200M && sudo journalctl --flush```
+
+25. Reboot.
 
