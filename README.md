@@ -20,3 +20,5 @@
 
 10. You will have now reached a graphical Xubuntu 25.04 desktop, but BEWARE that the system is nowhere near completely ready, but this is a lot more comfortable and gives me a lot more to work with.
 
+11. In case you haven't already, go into your BIOS/UEFI and set the Linux disk to be the first one, the highest priority, to boot automatically.
+
