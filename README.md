@@ -33,3 +33,10 @@
 16. Install Cyberpunk 2077 and see how well it works.
 
 17. Install Shadow Warrior 2013 and see how well it works.
+
+18. ``sudo add-apt-repository ppa:obsproject/obs-studio``
+
+19. ``sudo apt update``
+
+20. ``sudo apt install -y obs-studio``
+
