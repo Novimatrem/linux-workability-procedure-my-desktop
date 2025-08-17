@@ -31,3 +31,5 @@
 15. ``sudo gdebi -n steam.deb``
 
 16. Install Cyberpunk 2077 and see how well it works.
+
+17. Install Shadow Warrior 2013 and see how well it works.
