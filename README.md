@@ -34,9 +34,11 @@
 
 17. Install Shadow Warrior 2013 and see how well it works.
 
-18. ``sudo add-apt-repository ppa:obsproject/obs-studio``
+18. Run ``sudo nano /etc/apt/sources.list`` - comment out the cdrom line, and save the file.
 
-19. ``sudo apt update``
+19. ``sudo add-apt-repository ppa:obsproject/obs-studio``
 
-20. ``sudo apt install -y obs-studio``
+20. ``sudo apt update``
+
+21. ``sudo apt install -y obs-studio``
 
