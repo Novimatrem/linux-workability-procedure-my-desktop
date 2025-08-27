@@ -6,6 +6,8 @@
 
 3. Click Close, shut down the PC, remove the install medium (USB). Turn the machine back on, and boot from your Linux drive via BIOS/UEFI.
 
+ONLY FOLLOW IF IT DOESN'T BOOT INTO GRUB: If your BIOS/UEFI is strange, you may not be able to boot directly into grub and thus the OS by default, at this stage, notably on the HP UEFI Native BIOS. Simply boot into the OS using the boot option selector menu, instead, follow enough of this guide to have logged in graphically, and then install rEFInd using apt, and run sudo refind-install and sudo refind-mkdefault - then Linux will become your default boot option in a way supported by your system.
+
 4. In grub, quickly select "Advanced options for Ubuntu", and then the (recovery mode) one.
 
 5. Choose root - Drop to root shell prompt, then press Enter again.
